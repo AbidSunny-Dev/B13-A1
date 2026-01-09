@@ -24,6 +24,13 @@
     transition: background-color 0.3s;
     border: none;
 }
+
+.btn-navbar:hover{
+  background-color: rgba(255, 255, 255, 0.42);
+
+  color: black;
+}
+
 .btn-hero{
     padding: 16.5px 16px;
     color: #ffffff;
@@ -35,6 +42,12 @@
     border: none;
     transition: background-color 0.3s;
 }
+.btn-hero:hover{
+  background-color: rgba(255, 255, 255, 0.42);
+
+  color: black;
+}
+
 .btn-hero-trans{
     padding: 16.5px 16px;
     color: #ffffff;
@@ -48,6 +61,14 @@
     transition: background-color 0.1s;
 }
 
+.btn-hero-trans:hover{
+  background-color: #011216;
+
+  color: white;
+
+  border-color: #30B868;
+  
+}
 
 /* navstyle start */
 
@@ -276,20 +297,20 @@ nav ul a{
     margin-bottom: 16px;
 }
 
-.more-clear-con{
+.more-container{
     background-color: #F7F6F2;
     margin: 0 auto;
     text-align: center;
     max-width: 1360px;
     padding: 120px 120px;
 }
-.text-two h3{
+.text-think h3{
     font-size: 40px;
     font-weight: bold;
     color: #001931;
     margin-bottom: 16px;
 }
-.text-two p{
+.text-think p{
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 24px;
@@ -303,7 +324,7 @@ footer{
     height: 348px;
     position: relative;
 }
-.text-sec{
+.text-footer{
    display: flex;
    justify-content: space-between;
    padding: 120px 120px 0 120px;
