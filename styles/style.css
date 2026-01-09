@@ -106,11 +106,13 @@ nav ul a{
 }
 
 
-#hero .hero-container .hero-text{
+#hero .hero-container p{
 
     font-size: 18px;
     line-height: 24px;
     color: white;
+    padding: 16px 16px;
+    display:inline-block;
     
     
 }
@@ -123,4 +125,86 @@ nav ul a{
 
     align-items: center;
     justify-content: center;
+}
+
+
+.notes-section {
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+
+.section-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-header h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  letter-spacing: -0.02em;
+}
+
+.section-header p {
+  color: #64748b;
+  font-size: 1.15rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;   
+  gap: 24px;          
+  justify-content: center;
+}
+
+.card {
+  flex: 1;            
+  min-width: 250px; 
+  max-width: 280px;   
+  background: #ffffff;
+  padding: 40px 24px;
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid #f1f5f9;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.03);
+}
+
+.icon-circle {
+  width: 64px;
+  height: 64px;
+  background-color: #ff5e5e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px;
+}
+
+.icon-circle img {
+  width: 30px;
+  height: 30px;
+}
+
+
+.card h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.card p {
+  color: #475569;
+  font-size: 1rem;
+  line-height: 1.6;
 }
