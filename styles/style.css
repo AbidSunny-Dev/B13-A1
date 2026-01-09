@@ -208,3 +208,46 @@ nav ul a{
   font-size: 1rem;
   line-height: 1.6;
 }
+
+
+#knowledge-container{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+#knowledge-container img{
+    max-width: 600px;
+    max-height: 600px;
+}
+#knowledge-container .text{
+    max-width: 700px;
+    margin-top: 102px;
+}
+.text h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #30B868;
+    margin-bottom:16px ;
+}
+.text h3{
+   font-size: 48px; 
+   font-weight: bold;
+   color: #001931;
+   margin-bottom: 16px;
+}
+.text p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+.correct-list li{
+    list-style: none;
+    color: #001931;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
